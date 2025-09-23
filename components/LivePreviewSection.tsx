@@ -40,7 +40,7 @@ export const LivePreviewSection: React.FC = () => {
     <section className="text-center py-12 md:py-16">
       <div ref={ref}>
         <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-bold mb-12 md:mb-16 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>Live Preview</h2>
-        <div className="grid md:grid-cols-4 gap-8 lg:gap-12 items-start max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-4 gap-8 lg:gap-12 items-start justify-items-center max-w-6xl mx-auto">
           <div className={`transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
             <div style={{ maxWidth: '300px', width: '100%' }}>
               {groceryListScreen}
