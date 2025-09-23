@@ -126,7 +126,7 @@ export const HeroSection: React.FC = () => {
         </div>
         <div className={`flex justify-center items-center md:mt-0 transition-all duration-1000 ease-out delay-200 ${isMounted ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}>
           <div className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px]">
-            <img src="/unnamed-6.png" alt="Hero Visual" className="w-full h-auto rounded-xl shadow-lg" />
+            <img src={heroPhoneScreenImage} alt="Hero Visual" className="w-full h-auto rounded-xl shadow-lg" />
           </div>
         </div>
       </section>
