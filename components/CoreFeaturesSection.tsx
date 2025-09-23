@@ -16,7 +16,7 @@ const features = [
   {
     icon: <TurnByTurnIcon />,
     title: "Turn-by-Turn In-Store Navigation",
-    description: "Find every item fast with precise GPS-style aisle guidance — no wandering, no wasted time."
+    description: "Lumo helps you find every item fast with in-store GPS. No more wandering, no more asking."
   },
   {
     icon: <SmartListRoutingIcon />,
