@@ -8,7 +8,8 @@ import {
   AiAssistantIcon, 
   SharedListsIcon, 
   PriceTrackIcon,
-  AugmentedRealityIcon
+  AugmentedRealityIcon,
+  MealPrepIcon
 } from './icons';
 
 const features = [
@@ -20,12 +21,17 @@ const features = [
   {
     icon: <SmartListRoutingIcon />,
     title: "Smart Lists with Instant Routing",
-    description: "Your shopping list becomes a route that’s optimized for speed, convenience, and efficiency."
+    description: "Your shopping list becomes a route that's optimized for speed, convenience, and efficiency."
   },
   {
     icon: <AiAssistantIcon />,
     title: "Built-In AI Shopping Assistant",
     description: "Get product recommendations, substitutions, and allergy-friendly suggestions in real time."
+  },
+  {
+    icon: <MealPrepIcon />,
+    title: "Meal Prep AI",
+    description: "Turn any recipe, video, or link into a ready-to-shop list. Lumo adapts meals to your diet, allergies, and budget, then maps every ingredient to the exact shelf."
   }
 ];
 
