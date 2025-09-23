@@ -191,10 +191,9 @@ export const AugmentedRealityIcon: React.FC<IconProps> = ({ className }) => (
 
 export const MealPrepIcon: React.FC<IconProps> = ({ className }) => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-    <path d="M8 6h8M8 10h8M8 14h4" strokeLinecap="round"/>
-    <path d="M19 14l-3 3 3 3" strokeLinecap="round" strokeLinejoin="round"/>
-    <path d="M4 4h16v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4z" strokeLinecap="round" strokeLinejoin="round"/>
-    <path d="M16 17H6.5" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M12 2L2 7l10 5 10-5-10-5z" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M2 17l10 5 10-5" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M2 12l10 5 10-5" strokeLinecap="round" strokeLinejoin="round"/>
     <circle cx="18" cy="6" r="2" fill="currentColor" opacity="0.3"/>
     <path d="M17 5l2 2" strokeLinecap="round" strokeLinejoin="round"/>
   </svg>
