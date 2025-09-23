@@ -42,22 +42,22 @@ export const LivePreviewSection: React.FC = () => {
         <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-bold mb-12 md:mb-16 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>Live Preview</h2>
         <div className="grid md:grid-cols-4 gap-8 lg:gap-12 items-start justify-items-center max-w-6xl mx-auto">
           <div className={`transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-            <div style={{ maxWidth: '300px', width: '100%' }}>
+            <div className="mx-auto" style={{ maxWidth: '300px' }}>
               {groceryListScreen}
             </div>
           </div>
           <div className={`transition-all duration-1000 ease-out delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <div style={{ maxWidth: '300px', width: '100%' }}>
+            <div className="mx-auto" style={{ maxWidth: '300px' }}>
               {lumoAssistScreen}
             </div>
           </div>
           <div className={`transition-all duration-1000 ease-out delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <div style={{ maxWidth: '300px', width: '100%' }}>
+            <div className="mx-auto" style={{ maxWidth: '300px' }}>
               {nutritionAnalysisScreen}
             </div>
           </div>
           <div className={`transition-all duration-1000 ease-out delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <div style={{ maxWidth: '300px', width: '100%' }}>
+            <div className="mx-auto" style={{ maxWidth: '300px' }}>
               {/* If unnamed-6.png was here, switch to profile.png */}
               <ImageScreen src={profileImage} alt="Profile Preview" />
             </div>
