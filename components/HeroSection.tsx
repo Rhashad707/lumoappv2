@@ -98,7 +98,7 @@ export const HeroSection: React.FC = () => {
             Shop Like You Have <span className="text-brand-cyan">Superpowers</span>
           </h1>
           <p className="text-lg sm:text-xl text-dark-subtext max-w-xl mx-auto md:mx-0">
-            Lumo helps you find every item fast with in-store GPS—no more wandering, no more asking.
+            Lumo helps you find every item fast with in-store GPS. No more wandering, no more asking.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 pt-4">
             <button 
