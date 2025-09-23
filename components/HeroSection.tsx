@@ -7,7 +7,7 @@ import { ImageScreen } from './ImageScreen';
 import { db, collection } from '../firebase';
 import { getDocs } from 'firebase/firestore';
 
-const heroPhoneScreenImage = '/profile.png';
+const heroPhoneScreenImage = '/lumoassist.png';
 const nutritionAnalysisImage = '/nutruution_analysis.png';
 
 export const HeroSection: React.FC = () => {
